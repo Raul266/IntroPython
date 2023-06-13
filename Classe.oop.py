@@ -19,7 +19,7 @@ class Robot:
         else:
             self.sleep = False
             return f'{self.nume} turned on'
-
+        
     def end_of_life(self):
         if self.age > self.garantie:
             print(f'{self.nume} depasit perioada de garantie')
